@@ -1,0 +1,48 @@
+{
+  "name": "use-pro-state",
+  "version": "1.0.2",
+  "description": "use useState like a pro",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "react",
+    "useState",
+    "react hooks"
+  ],
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "",
+    "build": "tsc"
+  },
+  "author": "fi3ework",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fi3ework/useProState"
+  },
+  "bugs": {
+    "url": "https://github.com/fi3ework/useProState"
+  },
+  "homepage": "https://github.com/fi3ework/useProState",
+  "dependencies": {
+    "@types/react": "^16.8.2"
+  },
+  "devDependencies": {
+    "cross-env": "5.0.5",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
