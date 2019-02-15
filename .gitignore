@@ -4,4 +4,4 @@ coverage
 *.log
 .vscode
 .idea
-dist
+lib
